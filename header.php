@@ -39,8 +39,8 @@
                 </div>
                 <div class="cell-7 right-bar">
                     <ul class="right">
-                        <li><a href="siteMap.html"><i class="fa fa-sitemap"></i>Site Map</a></li>
-                        <li><a href="register.html"><i class="fa fa-user"></i>Register</a></li>
+                        <li><a href="#"><i class="fa fa-sitemap"></i>Site Map</a></li>
+                        <li><a href="#"><i class="fa fa-user"></i>Register</a></li>
                         <li><a href="#" class="login-btn"><i class="fa fa-unlock-alt"></i> Login</a></li>
                     </ul>
                 </div>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <div class="logo cell-2">
-                    <a href="home.html"></a>
+                    <a href="index.php"></a>
                 </div>
                 <div class="cell-10 top-menu">
                     <!-- top navigation menu start -->
@@ -77,7 +77,7 @@
                             </li>
                             <li><a href="#"><i class="fa fa-book"></i><span>Research and Studies</span></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-graduation-cap"></i><span>Knowledge Base</span></a>
+                            <li><a href="Knowledge_Base.php"><i class="fa fa-graduation-cap"></i><span>Knowledge Base</span></a>
                             </li>
                             <li><a href="#"><i class="fa fa-cogs"></i><span>Services</span></a>
                             </li>

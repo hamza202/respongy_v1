@@ -434,33 +434,7 @@
 				</div>
 				<!-- our clients block end -->
 
-                <!-- Join Us Start -->
-                <div class="contact-form">
-                    <div id="contact-wrapper">
-                        <div class="contact-content">
-                            <div id="formmessage">Success/Error Message Goes Here</div>
-                            <form class="form-horizontal" id="contactform" method="post" action="php/contact-form.php">
-                                <div class="contact-form">
-                                    <h4>Drop me a line</h4>
-                                    <p>Use this form to tell me about your project goals and needs. I will be in touch within 24
-                                        hours.</p>
-                                    <input id="name" type="text" placeholder="Name*" name="name">
-                                    <input type="email" placeholder="Email*" name="email">
-                                    <input type="text" placeholder="Phone*" name="phone">
-                                    <textarea class="input-message" placeholder="Comment*" rows="7" name="message"></textarea>
-                                    <input type="hidden" name="action" value="sendEmail"/>
-                                    <button id="submit" name="submit" type="submit" value="Send" class="button-small"> Say
-                                        Hello!
-                                    </button>
-                                </div>
-                            </form>
-                            <div id="ajaxloader" style="display:none"><img class="center-block"
-                                                                           src="images/ajax-loader-white.gif" alt=""></div>
-                        </div>
-                        <a href="#" class="contact-toggle"><span class="ti-comments hvr-ripple-out">Join Us!</span></a>
-                    </div>
-                </div>
-                <!--  Join us End  -->
+
 				
 			</div>
 			<!-- Content End -->
@@ -473,51 +447,11 @@
 	    	<div id="to-top" class="main-bg"><span class="fa fa-chevron-up"></span></div>
 	    
 	    </div>		
-	    
 
-	    <!-- Load JS siles -->	
- 		<script type="text/javascript" src="js/jquery.min.js"></script>
-	    
-	    <!-- Waypoints script -->
-		<script type="text/javascript" src="js/waypoints.min.js"></script>
-		
-		<!-- SLIDER REVOLUTION SCRIPTS  -->
-		<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-		
-		<!-- Animate numbers increment -->
-		<script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
-		
-		<!-- slick slider carousel -->
-		<script type="text/javascript" src="js/slick.min.js"></script>
-		
-		<!-- Animate numbers increment -->
-		<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
-		
-		<!-- PrettyPhoto script -->
-		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-		
-		<!-- Share post plugin script -->
-		<script type="text/javascript" src="js/jquery.sharrre.min.js"></script>
-		
-		<!-- Product images zoom plugin -->
-		<script type="text/javascript" src="js/jquery.elevateZoom-3.0.8.min.js"></script>
-		
-		<!-- Input placeholder plugin -->
-		<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <!--Start javascript include-->
+        <?php include ('javascript.php')?>
+        <!--End javascript include-->
 
-		<!-- Flickr API plugin -->
-		<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
 
-		<!-- MailChimp plugin -->
-		<script type="text/javascript" src="js/mailChimp.js"></script>
-		
-		<!-- NiceScroll plugin -->
-		<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-
-        <script type="text/javascript" src="js/modernizr.min.js"></script>
-
-		<!-- general script file -->
-		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

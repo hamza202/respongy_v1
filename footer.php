@@ -6,11 +6,11 @@
                 <div class="cell-3">
                     <h3 class="block-head">Main Menu</h3>
                     <ul class="footer-menu">
-                        <li><a href="home.html">Home Page</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="blog.html">Our Blog</a></li>
-                        <li><a href="portfolio-4-cols.html">Our Portfolio</a></li>
-                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="#">Home Page</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Our Portfolio</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
                 <!-- main menu footer cell start -->
@@ -32,8 +32,8 @@
                 <div class="cell-3">
                     <h3 class="block-head">Useful Links</h3>
                     <ul class="footer-menu">
-                        <li><a href="privacy.html">Privacy policy</a></li>
-                        <li><a href="terms.html">Terms of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms of use</a></li>
                         <li><a href="#">purus molestie</a></li>
                         <li><a href="#">adipiscing elit Integer</a></li>
                         <li><a href="#">magna euismod</a></li>
@@ -70,7 +70,7 @@
                         <li class="footer-contact"><i class="fa fa-home"></i><span>123, Second Street name, Address.</span></li>
                         <li class="footer-contact"><i class="fa fa-globe"></i><span><a href="#">info@it-rays.com</a></span></li>
                         <li class="footer-contact"><i class="fa fa-phone"></i><span>+1 (000) 000-0000</span></li>
-                        <li class="footer-contact"><i class="fa fa-map-marker"></i><span><a href="contact.html#map_canvas">View our map</a></span></li>
+                        <li class="footer-contact"><i class="fa fa-map-marker"></i><span><a href="#">View our map</a></span></li>
                     </ul>
                 </div>
                 <!-- contact us footer cell end -->
@@ -119,7 +119,7 @@
         <div class="container">
             <div class="row">
                 <!-- footer copyrights left cell -->
-                <div class="copyrights cell-5">&copy; Copyrights <b>EXCEPTION</b> 2014. All rights reserved. <span><a href="privacy.html">Privacy policy</a> | <a href="terms.html">Terms of use</a></span></div>
+                <div class="copyrights cell-5">&copy; Copyrights <b>EXCEPTION</b> 2014. All rights reserved. <span><a href="#">Privacy policy</a> | <a href="#">Terms of use</a></span></div>
 
                 <!-- footer social links right cell start -->
                 <div class="cell-7">
@@ -141,3 +141,31 @@
     <!-- footer bottom bar end -->
 
 </footer>
+
+<!-- Join Us Start -->
+<div class="contact-form2">
+    <div id="contact-wrapper">
+        <div class="contact-content">
+            <div id="formmessage">Success/Error Message Goes Here</div>
+            <form class="form-horizontal" id="contactform" method="post" action="#">
+                <div class="contact-form2">
+                    <h4>Join Us!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci atque
+                        hours.</p>
+                    <input id="name" type="text" placeholder="Name*" name="name">
+                    <input type="email" placeholder="Email*" name="email">
+                    <input type="text" placeholder="Phone*" name="phone">
+                    <textarea class="input-message" placeholder="Comment*" rows="7" name="message"></textarea>
+                    <input type="hidden" name="action" value="sendEmail"/>
+                    <button type="submit" class="btn btn-md btn-skew">
+                        <span>Send<i class="fa fa-paper-plane selectedI"></i></span>
+                    </button>
+                </div>
+            </form>
+            <div id="ajaxloader" style="display:none"><img class="center-block"
+                                                           src="images/ajax-loader-white.gif" alt=""></div>
+        </div>
+        <a href="#" class="contact-toggle"><span class="ti-comments hvr-ripple-out">Join Us!</span></a>
+    </div>
+</div>
+<!--  Join us End  -->
