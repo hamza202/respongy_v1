@@ -1,0 +1,283 @@
+header.top-head .logo a, .foot-logo {
+    background-size: 100%;
+}
+
+.foot-logo {
+    background: transparent url(../images/logo_large.png) no-repeat;
+    background-size: 100%;
+    height: 89px;
+    margin-top: -30px;
+}
+
+header.top-head .logo a {
+    width: 186px;
+    height: 55px;
+}
+
+header.top-head .logo {
+    margin-top: 15px;
+}
+
+a.main-color:hover, .project-name:hover, .box-top .more-btn:hover {
+    color: #fff !important;
+}
+
+.sticky .logo {
+    margin-top: 2px !important;
+}
+
+footer .no-margin {
+    margin: 10px 20px 8px;
+}
+
+.slid-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-content {
+    padding: 30px;
+    width: 300px;
+    height: 100%;
+    background: #2f3742;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transform: translateX(0) translateZ(0);
+    transform: translateX(0) translateZ(0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.3s cubic-bezier(0.32, 1.25, 0.375, 1.15);
+    transition: all 0.3s cubic-bezier(0.32, 1.25, 0.375, 1.15);
+    z-index: 9999;
+}
+
+.contact-content.show-contact {
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+    -webkit-transform: translateX(300px) tranlateZ(0);
+    -ms-transform: translateX(300px) tranlateZ(0);
+    transform: translateX(300px) tranlateZ(0);
+    -webkit-transform: translate3d(300px, 0, 0);
+    transform: translate3d(300px, 0, 0);
+}
+.hvr-ripple-out:before{
+    border: #88be48 solid 6px;
+}
+
+.contact-toggle {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transform: translateX(0) translateZ(0);
+    transform: translateX(0) translateZ(0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.4s cubic-bezier(0.32, 1.25, 0.375, 1.15);
+    transition: all 0.4s cubic-bezier(0.32, 1.25, 0.375, 1.15);
+    z-index: 9999;
+}
+
+.contact-toggle span {
+
+    background: #88be48;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+/*.contact-toggle span::before{*/
+    /*position: absolute;*/
+    /*content: '';*/
+    /*display: block;*/
+    /*border-width: 0 20px 20px 0;*/
+    /*border-style: solid;*/
+    /*border-color: #ccc #fff #ccc #fff;*/
+    /*top: 0;*/
+    /*right: 0;*/
+
+/*}*/
+.no-touch .contact-toggle span:hover {
+    color: #ffffff;
+}
+
+.contact-toggle span.ti-comments {
+    color: #ffffff;
+}
+
+.contact-toggle span.ti-comments:hover {
+    color: #ffffff;
+}
+
+.contact-toggle.show-contact {
+    bottom: 12px;
+    left: 12px;
+}
+
+/*contact-form*/
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+:-moz-placeholder {
+    color: #ffffff;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px black inset !important;
+    color: #ffffff !important;
+}
+
+input {
+    background: transparent;
+    border: none;
+    height: 45px;
+    padding-left: 10px;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    font-size: 14px;
+    color: #ffffff;
+    width: 100%;
+}
+
+input:focus {
+    background: transparent;
+    box-shadow: 0 0 17px 0 #ebebeb;
+}
+
+textarea {
+    resize: vertical;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    font-size: 14px;
+}
+
+textarea:focus {
+    background: transparent;
+    box-shadow: 0 0 17px 0 #ebebeb;
+    outline: none !important;
+}
+
+.contact-form {
+    position: relative;
+    height: 100%;
+}
+
+.contact-form h4 {
+    text-transform: uppercase;
+    color: #07cb79;
+    margin-bottom: 25px;
+}
+
+.contact-form p {
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.contact-form input {
+    padding-left: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    border: 1px solid #464e5a;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.contact-form input:focus {
+    box-shadow: none;
+    border: 1px solid #07cb79;
+}
+
+.contact-form textarea {
+    padding-left: 15px;
+    background: transparent;
+    border: 1px solid #464e5a;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea:focus {
+    box-shadow: none;
+    border: 1px solid #07cb79;
+}
+
+.contact-form a.button-small {
+    border-radius: 3px;
+    background: #464e5a;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.contact-form a.button-small:hover {
+    background: #07cb79;
+}
+
+#formmessage {
+    display: none;
+}
+
+#ajaxloader {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
